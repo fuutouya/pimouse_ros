@@ -1,5 +1,7 @@
 #!/bin/bash -xve
 
+sudo sh -c 'echo 127.0.1.1 $(hostname) >> /etc/hosts'
+
 #required packages
 sudo pip install catkin_pkg
 sudo pip install empy
