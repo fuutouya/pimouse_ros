@@ -1,6 +1,6 @@
 #!/bin/bash -xve
 
-sudo sh -c 'echo 127.0.1.1 $(hostname) >> /etc/hosts'
+sudo sh -c 'echo 127.0.1.1 travis-job-a32f444a-985b-41af-a41a-a2333cb80e40 >> /etc/hosts'
 
 #required packages
 sudo pip install catkin_pkg
