@@ -1,6 +1,8 @@
 sudo: required
 dist: bionic
 
+before_install: sudo sh -c 'echo "127.0.0.1 travis-job-a9346215-80b7-4b38-95a1-a15ffb479fe1" >> /etc/hosts'
+
 script:
   - bash -xve ./test/travis_ros_install.bash
 
